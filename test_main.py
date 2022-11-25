@@ -12,6 +12,8 @@ TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjEzMDY3OTAsIm5iZiI6MT
 EMAIL = 'wolf@thedoor.com'
 PASSWORD = 'huff-puff'
 
+#adding a comment, then push to see if the pipeline will updateeee
+
 @pytest.fixture
 def client():
     os.environ['JWT_SECRET'] = SECRET
